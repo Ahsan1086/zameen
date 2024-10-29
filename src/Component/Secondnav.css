@@ -1,0 +1,19 @@
+.secondnav{
+    height: 50px;
+    padding: 0px 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 30px;
+    border-bottom: 1px solid  black;
+    overflow: hidden;
+}
+.secondnav a{
+    text-decoration: none;
+    color: rgb(87, 83, 83);
+}
+.secondnav a:first-child{
+    color: black;
+    font-weight: bolder;
+    font-size: 30px;
+}

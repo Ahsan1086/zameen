@@ -1,0 +1,89 @@
+.abc{
+    background-color: aqua;
+    height: auto;
+    width: 100%;
+    padding: 20px 0px;
+}
+.abcd{
+    
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+}
+.calculator{
+    height: 130px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+    border-radius: 10px;
+}
+.calculator1{
+    padding: 20px 0px;
+    height: auto;
+    width: 340px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    gap: 20px;
+
+    border-radius: 10px;
+}
+.cal1{ 
+    width: 320px;
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+input{
+    width:60%;
+    background-color: transparent;
+    border: none;
+    padding: 0 0 0 5px;
+}
+input:focus{
+    outline: none;
+    border: none;
+}
+.calbtn{
+    height: 60px !important;
+    width: 150px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+
+.loan{
+    border: 1px solid  silver;
+    height: 250px;
+    width: 800px;
+    border-radius: 20px;
+}
+.data{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+}

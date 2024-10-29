@@ -1,0 +1,93 @@
+.home{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+.home1{
+    height: auto;
+    padding: 10px 0px;
+    background-color: rgba(24, 14, 14, 0.457);
+}
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.btn-group button {
+    background-color: transparent;
+    color: white;
+    border-radius: 0;
+    font-weight: bold;
+    width:120px;
+    border: 1px solid white;
+    flex-shrink: 0;
+    padding: 7px 20px;
+  }
+  .btn-group button:hover{
+    color: black;
+    background-color: white;
+  }
+.home form{
+    width: 60%;
+}
+.city{
+    background-color: white;
+    background-clip: content-box;
+    border-radius: 2px;
+    border: none;
+}
+.city select{
+    border: none;
+    border-radius: none;
+    padding: 0;
+    margin: 0;
+}
+.city select:focus{
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+.location{
+    background-color: white;
+    background-clip: content-box;
+    /* border: 1px solid red; */
+    border-radius: 2px;
+    border: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.location input{
+    width: 100%;
+    border: none;
+    padding: 0px 10px;
+}
+.location input:focus{
+    outline: none;
+}
+
+.find{
+    /* background-color: white; */
+    border-radius: 2px;
+    border: none;
+}
+.find button{
+    width: 100%;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    border: none;
+    height: 100%;
+}
+
